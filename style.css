@@ -19,6 +19,7 @@ html {
 body {
     background-color: var(--color2);
     color: var(--color1);
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -72,6 +73,7 @@ nav{
 main {
     width: 93%;
     margin: auto;
+    padding-top: 70px;
 }
 
 section {
