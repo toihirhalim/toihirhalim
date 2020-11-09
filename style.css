@@ -2,8 +2,10 @@
     --color1: #363434;
     --color2: #dfd5d5;
     --color3: #c5bcbc;
+    --color4: #4e4c4c;
     --section-height: 92vh;
 }
+
 * {
     padding: 0;
     margin: 0;
@@ -19,10 +21,12 @@ header {
     background-color: var(--color1);
     color: var(--color2);
     height: 8vh;
+    width: 100%;
     min-height: 45px;
     max-height: 70px;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 
 .navbar{
@@ -59,6 +63,11 @@ nav{
     color: var(--color3);
     font-size: 1em;
     text-decoration: none;
+}
+
+main {
+    width: 93%;
+    margin: auto;
 }
 
 section {
