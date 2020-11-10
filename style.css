@@ -70,20 +70,25 @@ nav{
     text-decoration: none;
 }
 
-main {
-    width: 93%;
-    margin: auto;
-}
-
 section {
     height: var(--section-height);
     padding-top: var(--navbar-height);
 }
 
-#home {
+.container {
+    width: 93%;
+    margin:0 auto;
+}
+
+.home{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+#home {
+    display: flex;
+    align-items: center;
 }
 
 .buttons {
@@ -132,6 +137,7 @@ section {
     text-align: center;
     padding-top: 6px;
 }
+
 
 #contact {
     height: 90vh;
