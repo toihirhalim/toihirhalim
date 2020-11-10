@@ -118,8 +118,9 @@ section {
 }
 
 .profile p {
-    font-size: 10px;
+    font-size: 8px;
     text-align: center;
+    padding-top: 3px;
 }
 
 .image {
@@ -128,8 +129,7 @@ section {
 
 .name {
     text-align: center;
-    padding-top: 10px;
-    font-size: 1.5em;
+    padding-top: 6px;
 }
 
 
