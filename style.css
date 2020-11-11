@@ -138,6 +138,33 @@ section {
     padding-top: 6px;
 }
 
+.project {
+    width: 200px;
+    height: 250px;
+    background-color: var(--color3);
+    padding: 10px;
+}
+
+.project-top {
+    height:  70%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project-image {
+    height: 100%;
+    transform: scale(2);
+}
+
+.project-description {
+    font-size: 0.6em;
+}
+
+.project a {
+    text-decoration: none;
+    color: var(--color4)
+}
 
 #contact {
     height: 90vh;
