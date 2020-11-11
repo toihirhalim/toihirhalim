@@ -138,6 +138,13 @@ section {
     padding-top: 6px;
 }
 
+.projects {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    
+}
+
 .project {
     width: 200px;
     height: 250px;
