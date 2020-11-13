@@ -148,10 +148,15 @@ section {
 
 .project {
     min-width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-container{
+    width: 200px;
     height: 250px;
     background-color: var(--color3);
     padding: 10px;
-    align-self: center;
 }
 
 .project-top {
