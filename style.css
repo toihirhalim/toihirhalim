@@ -147,10 +147,11 @@ section {
 }
 
 .project {
-    width: 200px;
+    min-width: 200px;
     height: 250px;
     background-color: var(--color3);
     padding: 10px;
+    align-self: center;
 }
 
 .project-top {
