@@ -100,7 +100,6 @@ section {
 .button {
     width: 110px;
     height: 40px;
-    margin-right: 20px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -109,6 +108,7 @@ section {
     background-color: var(--color1);
     color: var(--color2);
     border: 2px solid var(--color1);
+    margin-right: 20px;
 }
 
 #button2 {
@@ -186,6 +186,34 @@ section {
 #contact {
     height: 90vh;
 }
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#submit {
+    background-color: var(--color3);
+    color: var(--color1);
+    border: 2px solid var(--color1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 20px;
+}
+
+
 
 footer {
     text-align: center;
