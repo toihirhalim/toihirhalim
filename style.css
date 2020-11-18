@@ -183,11 +183,7 @@ section {
     color: var(--color4)
 }
 
-#contact {
-    margin-bottom: 20px;
-}
-
-.formulaire {
+.formulaire, .social {
     display: flex;
     justify-content: center;
 }
@@ -199,23 +195,32 @@ section {
 }
 
 #submit {
-    background-color: var(--color3);
+    background-color: var(--color2);
     color: var(--color1);
     border: 2px solid var(--color1);
 }
 
 form {
-    width: 100%;
-    max-width: 400px;
     display: flex;
     flex-direction: column;
 }
 
-input {
-    height: 20px;
+.contact-element {
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--color3);
+    padding: 10px;
 }
 
+input {
+    height: 20px;
+    background-color: var(--color2);
+    border: none;
+}
 
+textarea {
+    resize: none;
+}
 
 footer {
     text-align: center;
