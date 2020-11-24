@@ -120,7 +120,7 @@ section {
 .picture {
     border: 4px var(--color1) solid;
     overflow: hidden;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
 }
 
 .profile p {
@@ -139,11 +139,22 @@ section {
     padding-top: 6px;
 }
 
+
 .projects {
-    padding-top: 20px;
+    padding-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 10px;
+}
+
+.cont-projettc {
+    width: 100%;
+    background-color: var(--color4);
+}
+
+.cont-projettc h1 {
+    color: var(--color2);
+    padding: 10px 0 10px 0;
 }
 
 .project {
