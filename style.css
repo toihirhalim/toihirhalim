@@ -168,6 +168,12 @@ section {
     height: 250px;
     background-color: var(--color3);
     padding: 10px;
+    transition: all .2s ease-in-out;
+}
+
+
+.project-container:hover {
+    transform: scale(1.1); 
 }
 
 .project-top {
