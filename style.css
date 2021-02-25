@@ -124,3 +124,9 @@ section{
 .technology p{
     margin: 0px;
 }
+
+.bnt-github-redirect{
+    padding: 2%;
+    font-size: 1.3vw;
+    color:rgb(9, 42, 68);
+}
