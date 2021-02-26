@@ -64,9 +64,13 @@ section{
 
 /* projects */
 
+.project-title{
+    color: rgb(14, 55, 88);
+    font-size: 2.0vw;
+}
 .project{
-    height: 25vw;
-    margin : 30px 0px;
+    height: 26vw;
+    margin : 10% 0px 15% 0px;
     display: flex;
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
@@ -86,6 +90,7 @@ section{
 .image-container{
     position: absolute;
     height: 100%;
+    padding-right: 10px;
 }
 .image {
     height: 100%;
@@ -97,11 +102,16 @@ section{
     color: rgb(14, 55, 88);
 }
 
+.make-small h4{
+    font-size: 2.0vw;
+}
+
 .description{
     font-size: 1.7vw;
 }
 .description p {
     margin: 0px;
+    font-size: 1.5vw;
 }
 .btn-redirect button{
     font-size: 1.8vw;
@@ -114,10 +124,10 @@ section{
 }
 .technology{
     margin: 0px 3% 3% 0px;
-    padding: 5px;
+    padding: 1% 2%;
     color:rgb(9, 42, 68);
     background-color: rgb(202, 206, 209);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1px 2px 0 rgba(66, 66, 66, 0.2), 0 2px 5px 0 rgba(78, 78, 78, 0.19);
     font-size: 1.3vw;
 }
 
@@ -129,4 +139,5 @@ section{
     padding: 2%;
     font-size: 1.3vw;
     color:rgb(9, 42, 68);
+    cursor: pointer;
 }
