@@ -11,142 +11,314 @@
 </head>
 
 <body>
-    <header id="header">
-        <div class="navbar">
-            <div class="logo">
-                <a href="">
-                    <img src="images/user2.png" class="logo-image" alt="">
-                </a>
-            </div>
-            <nav>
-                <ul class="links">
-                    <li><a href="#home" class="link">Home</a></li>
-                    <li><a href="#projects" class="link">Projects</a></li>
-                    <li><a href="#about" class="link">About Me</a></li>
-                    <li><a href="#contact" class="link">Contact Me</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
     <main>
-        <section id="home">
-            <div class="container home">
+        <section id="general">
+            <div class="container general-container">
+                <div class="general-info">
+                    <h1>Mouhammad Toihir Mohamed Halim</h1>
+                    <h3>Etudiant Ingenieur : Logiciel et Systemes Inteligents</h3>
+                    <h3>Universite Abdelmalek Essaandi FST Tanger</h3>
 
-                <div class="description">
-                    <h1>hi it's me testing this page !</h1>
-                    <p>i will update this page every single day until it's done</p>
-                    <p id="p1"></p>
-                    <a href="https://github.com/toihirhalim" target="_blank">visit my github</a>
-                    <div class="buttons">
-                        <a href="#contact">
-                            <button id="button1" class="button">Let's talk</button>
-                        </a>
-                        <a href="#projects">
-                            <button id="button2" class="button">See my works</button>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="profile">
-                    <div class="picture">
-                        <img src="images/toihir.JPG" class="image" alt="">
-                    </div>
-                    <p>a professional picture will be here soon</p>
-                    <div class="name">
-                        <h1>Toihir Halim</h1>
+                    <div class="btn-contianer">
+                        <div>
+                            <a href="#projects">
+                                <button id="btn-1" class="btn">See my works</button>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/toihirhalim" target="_blank">
+                                <button id="btn-2" class="btn">See my GitHub</button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="projects">
-            <div class="cont-projettc">
-                <div class="container">
-                    <h1>Projects</h1>
-                    <div class="projects">
-                        <article class="project">
-                            <div class="project-container">
-                                <div class="project-top">
-                                    <img src="images/calculator.jpeg" class="project-image scale-img scale-img" alt="">
-                                </div>
-                                <a href="https://github.com/toihirhalim/Android-Calculator" target="_blanck">
-                                    <div class="project-bottom">
-                                        <h3>Calculator</h3>
-                                        <p class="project-description">Android classique/scientifique calculator
-                                            made with Android Studio: Java </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </article>
-                        <article class="project">
-                            <div class="project-container">
-                                <div class="project-top">
-                                    <img src="images/futoshiki.JPG" class="project-image " alt="">
-                                </div>
-                                <a href="https://github.com/toihirhalim/Futoshiki-game" target="_blanck">
-                                    <div class="project-bottom">
-                                        <h3>Futoshiki</h3>
-                                        <p class="project-description">Aplication made using Java to
-                                            solve a futoshiki board
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </article>
-                        <article class="project">
-                            <div class="project-container">
-                                <div class="project-top">
-                                    <img src="images/othello.JPG" class="project-image scale-img" alt="">
-                                </div>
-                                <a href="https://github.com/toihirhalim/Othello-game" target="_blanck">
-                                    <div class="project-bottom">
-                                        <h3>Othello</h3>
-                                        <p class="project-description">Aplication made using Java to
-                                            play Othello with computer or another user </p>
-                                    </div>
-                                </a>
-                            </div>
-                        </article>
+            <div class="container">
+                <div>
+                    <h2 class="project-title">Projets</h2>
+                </div>
+                <div class="projects">
 
+                    <div class="project">
+                        <div class="project-img">
+                            <div class="image-container">
+                                <img class="image" src="images/NLP.png" alt="futoshiki">
+                            </div>
+                        </div>
+                        <div class="project-info make-small">
+                            <div class="title">
+                                <h4>Traitement Language Naturelle</h4>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Application de forme <strong>SPA</strong> qui permet de faire du
+                                    <strong>scraping</strong>,
+                                    <strong>analyse de sentiemt</strong>, <strong>detection des fake news</strong>
+                                    et autres services <strong>NLP</strong>.
+                                </p>
+                            </div>
+                            <div class="btn-redirect">
+                                <a href="https://github.com/toihirhalim/Apprentissage-Machine-et-Traitement-de-langage-naturelle-arabe"
+                                    target="_blank">
+                                    <button class="bnt-github-redirect">See on github</button>
+                                </a>
+                            </div>
+                            <div class="technologies">
+                                <div class="technology">
+                                    <p>Machine Learning</p>
+                                </div>
+                                <div class="technology">
+                                    <p>Python</p>
+                                </div>
+                                <div class="technology">
+                                    <p>React JS</p>
+                                </div>
+                                <div class="technology">
+                                    <p>GraphQL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-img">
+                            <div class="image-container">
+                                <img class="image" src="images/medecins.bmp" alt="futoshiki">
+                            </div>
+                        </div>
+                        <div class="project-info make-small">
+                            <div class="title">
+                                <h4>Recherche de Medecins</h4>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Plateforme qui offre la recherche d un Medecin en fonction de sa
+                                    ville, sa specialité ou en fonction des douleurs mis par l'utilisateur.
+                                </p>
+                            </div>
+                            <div class="btn-redirect">
+                                <a href="https://github.com/toihirhalim/projet-JEE" target="_blank">
+                                    <button class="bnt-github-redirect">See on github</button>
+                                </a>
+                            </div>
+                            <div class="technologies">
+                                <div class="technology">
+                                    <p>JEE</p>
+                                </div>
+                                <div class="technology">
+                                    <p>SpringBoot</p>
+                                </div>
+                                <div class="technology">
+                                    <p>React JS</p>
+                                </div>
+                                <div class="technology">
+                                    <p>Rest Api</p>
+                                </div>
+                                <div class="technology">
+                                    <p>Mongo DB</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-img">
+                            <div class="image-container">
+                                <img class="image" src="images/othello.JPG" alt="futoshiki">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="title">
+                                <h4>Othello</h4>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Application qui permet de jouer une partie de <strong>Othello</strong>
+                                    en mode <strong>Humain</strong> VS <strong>Humain</strong> ou
+                                    <strong>Humain</strong> VS
+                                    <strong>Inteligence Artificielle</strong>
+                                    en utilisant le <strong>minmax pruning</strong>
+                                </p>
+                            </div>
+                            <div class="btn-redirect">
+                                <a href="https://github.com/toihirhalim/Othello-game" target="_blank">
+                                    <button class="bnt-github-redirect">See on github</button>
+                                </a>
+                            </div>
+                            <div class="technologies">
+                                <div class="technology">
+                                    <p>Java</p>
+                                </div>
+                                <div class="technology">
+                                    <p>AI</p>
+                                </div>
+                                <div class="technology">
+                                    <p>minmax-pruning</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-img">
+                            <div class="image-container">
+                                <img class="image" src="images/futoshiki.JPG" alt="futoshiki">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="title">
+                                <h4>Futoshiki</h4>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    L'application permet de resourde une partie de <strong>Futoshiki</strong>
+                                    (4-9 cases) par l'<strong>Humain</strong> en montrant les erreurs ou par
+                                    l'<strong>Inteligence Artificielle</strong>
+                                    en utilisant le <strong>Backtracking</strong>
+                                </p>
+                            </div>
+                            <div class="btn-redirect">
+                                <a href="https://github.com/toihirhalim/Futoshiki-game" target="_blank">
+                                    <button class="bnt-github-redirect">See on github</button>
+                                </a>
+                            </div>
+                            <div class="technologies">
+                                <div class="technology">
+                                    <p>Java</p>
+                                </div>
+                                <div class="technology">
+                                    <p>AI</p>
+                                </div>
+                                <div class="technology">
+                                    <p>Backtracking</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-img">
+                            <div class="image-container">
+                                <img class="image" src="images/search engine.bmp" alt="futoshiki">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="title">
+                                <h4>Search Engine</h4>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Moteur de recherche realisé avec le frameword <strong>Asp.net</strong>
+                                </p>
+                            </div>
+                            <div class="btn-redirect">
+                                <a href="https://github.com/toihirhalim/Search-engine" target="_blank">
+                                    <button class="bnt-github-redirect">See on github</button>
+                                </a>
+                            </div>
+                            <div class="technologies">
+                                <div class="technology">
+                                    <p>Asp.net</p>
+                                </div>
+                                <div class="technology">
+                                    <p>C#</p>
+                                </div>
+                                <div class="technology">
+                                    <p>MySQL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-img">
+                            <div class="image-container">
+                                <img class="image" src="images/envitrine.bmp" alt="futoshiki">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="title">
+                                <h4>Vitrine Virtuelle</h4>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    vitrine virtuelle fait avec <strong>laravel</strong>
+                                    qui perrmet d'ajouter et afficher des produis en cathegories
+                                </p>
+                            </div>
+                            <div class="btn-redirect">
+                                <a href="https://github.com/toihirhalim/envitrine" target="_blank">
+                                    <button class="bnt-github-redirect">See on github</button>
+                                </a>
+                            </div>
+                            <div class="technologies">
+                                <div class="technology">
+                                    <p>PHP</p>
+                                </div>
+                                <div class="technology">
+                                    <p>Laravel</p>
+                                </div>
+                                <div class="technology">
+                                    <p>MySQL</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project">
+                        <div class="project-img">
+                            <div class="image-container">
+                                <img class="image" src="images/calculator_1.jpeg" alt="calculatrice">
+                                <img class="image" src="images/calculator_2.jpeg" alt="calculatrice">
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="title">
+                                <h4>Calculatrice</h4>
+                            </div>
+                            <div class="description">
+                                <p>
+                                    Realisation d une calculatrice <strong>Android</strong> a la fois
+                                    <strong>Standard</strong> et <strong>Scientifique</strong>
+                                    en Java sur android studio
+                                </p>
+                            </div>
+                            <div class="btn-redirect">
+                                <a href="https://github.com/toihirhalim/Android-Calculator" target="_blank">
+                                    <button class="bnt-github-redirect">See on github</button>
+                                </a>
+                            </div>
+                            <div class="technologies">
+                                <div class="technology">
+                                    <p>Android</p>
+                                </div>
+                                <div class="technology">
+                                    <p>Java</p>
+                                </div>
+                                <div class="technology">
+                                    <p>Android studio</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="about">
-            <div class="container">
-                <h2>About me</h2>
-            </div>
+
         </section>
         <section id="contact">
-            <div class="container ">
-                <h2>Contact me</h2>
-                <div class="formulaire">
-                    <form action="" class="contact-element">
-                        <label for="name">Name :</label>
-                        <input type="text" id="name" name="name" required>
 
-                        <label for="email">Email :</label>
-                        <input type="email" id="email" name="email" placeholder="myEmail@test.com" required>
-
-                        <label for="message">Message :</label>
-                        <textarea type="text" id="name" name="name" rows="15" cols="50"
-                            placeholder="Enter message here .." required></textarea>
-                        <div class="submit-btn">
-                            <button type="submit" id="submit" class="button">Send</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="social">
-                    <div class="contact-element">
-
-                    </div>
-                </div>
-            </div>
         </section>
     </main>
     <footer>
         <p>
-            © 2020
-            <a href="https://github.com/toihirhalim" target="_blank">Toihir Halim</a>
+            © 2021
+            <strong>
+                <a href="https://github.com/toihirhalim" class="github-link-a" target="_blank">Toihir Halim</a>
+            </strong>
             No Rights Reserved
         </p>
     </footer>
