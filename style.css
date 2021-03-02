@@ -185,7 +185,7 @@ footer{
 }
 
 .contact-title{
-    flex: 1;
+    flex: 3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,7 +193,7 @@ footer{
 }
 
 .contact-infos{
-    flex: 1;
+    flex: 2;
     padding: 2vw;
 }
 
@@ -214,11 +214,20 @@ footer{
 .info{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items:center;
 }
 
 .contact-p a{
     text-decoration: none;
     color: rgb(224, 218, 218);
-    font-size: 1.5vw;
+    font-size: 1.7vw;
 }
+
+
+.contact-p p {
+    margin: 1vw 0px;
+}
+
+.contact-p{
+    display: flex;
+    align-items: center;}
