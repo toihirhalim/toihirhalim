@@ -176,3 +176,49 @@ footer{
     color:rgb(187, 187, 197);
     text-decoration: none;
 }
+
+#contact {
+    background-color: rgb(23, 81, 129);
+    color: white;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.contact-title{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7vw;
+}
+
+.contact-infos{
+    flex: 1;
+    padding: 2vw;
+}
+
+.contact-elem{
+    margin-bottom: 2vw;
+}
+
+.contact-elem img{
+    width: 2.5vw;
+    margin-right: 1vw;
+}
+
+.contact-elem h4{
+    font-size: 1.7vw;
+    margin: 0px;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-p a{
+    text-decoration: none;
+    color: rgb(224, 218, 218);
+    font-size: 1.5vw;
+}
