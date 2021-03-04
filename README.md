@@ -1,3 +1,4 @@
 # toihirhalim.github.io
 Personal Portfolio  
-[See the page here](https://toihirhalim.github.io/)
+<a href="https://toihirhalim.github.io" target="_blanck">click here to see the page</a>
+
