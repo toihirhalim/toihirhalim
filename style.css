@@ -83,7 +83,7 @@ section{
 
 /* projects */
 
-.project-title{
+.section-title{
     color: rgb(14, 55, 88);
     font-size: 2.0vw;
 }
@@ -231,3 +231,49 @@ footer{
 .contact-p{
     display: flex;
     align-items: center;}
+
+/*about*/
+
+#about{
+    margin-bottom: 10%;
+}
+    
+.about {
+    display: flex;
+}
+.about-text {
+    flex: 1;
+}
+.about-edu {
+    flex: 2;
+}
+.education h4 {
+    margin: 2% 0px;
+    font-size: 1.5vw;
+}
+.certification {
+    display: flex;
+}
+.certification p {
+    margin: 0.3vw 0px;
+    font-size: 1.4vw;
+}
+.certification a {
+    text-decoration: none;
+    color: rgb(83, 87, 112);
+}
+.date{
+    flex: 1;
+}
+.certificate {
+    flex: 5;
+}
+.certificate p {
+    display: flex;
+}
+.link {
+    margin-left: 0.5vw;
+}
+.link-icon{
+    width: 1.4vw;
+}
