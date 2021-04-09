@@ -83,13 +83,17 @@ section{
 
 /* projects */
 
+#projects{
+    margin-bottom: 10vw;
+}
+
 .section-title{
-    color: rgb(14, 55, 88);
+    color: rgb(26, 32, 46);
     font-size: 2.0vw;
 }
 .project{
     height: 26vw;
-    margin : 10% 0px 15% 0px;
+    margin : 3% 0px 10% 0px;
     display: flex;
     padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
@@ -253,6 +257,7 @@ footer{
 }
 .certification {
     display: flex;
+    padding-left: 1.5vw;
 }
 .certification p {
     margin: 0.3vw 0px;
@@ -276,4 +281,27 @@ footer{
 }
 .link-icon{
     width: 1.4vw;
+}
+.content {
+    display: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 3vw;
+}
+
+.header img {
+    width: 1.7vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+.header h3 {
+    font-size: 2vw;
+    color: rgb(14, 55, 88);
+    cursor: pointer;
+    margin: 0;
 }

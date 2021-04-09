@@ -1,32 +1,14 @@
 console.log("page loaded !");
 
 
-const handleClick = () => {
+$(".header").click(function () {
 
-    fetch('http://localhost:8080/api/admin/ajouter/admin', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            "token": {
-                "email": "hatimbakk25@gmail.com",
-                "password": "45123"
-            },
-            "new admin": {
-                "nom": "Paul",
-                "prenom": "great",
-                "email": "greatPaul@gmail.com",
-                "password": "1234896",
-                "numTel": "06854123654"
-            }
+    $header = $(this);
+    $content = $header.next();
+    $content.slideToggle(500, function () {
+        $header.children().first().children().attr("src", function () {
+            return $content.is(":visible") ? "images/collapse.png" : "images/expand.png";
+        });
+    });
 
-        })
-    })
-        .then(res => res.json())
-        .then(data => {
-            console.log(data)
-            alert('done')
-        })
-        .catch(e => alert('error'))
-}
+});
