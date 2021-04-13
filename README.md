@@ -4,5 +4,5 @@ Personal Portfolio with **html**, **css** and **javascript**
   
 ## License
 
-MIT
+[MIT](LICENSE)
 
